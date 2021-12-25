@@ -4,15 +4,7 @@
         
         <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js'></script>
         
-        <style>
-        
-            #sample {
-                background-color: red;
-                width: 300px;
-                height: 300px;
-            }
-        
-        </style>
+       
         
     </head>
     <body>
@@ -29,7 +21,7 @@
             
             console.log(data);
             
-            document.getElementById('sample').style.opacity = data+"%"; 
+            document.getElementById('sample').innerHTML= data; 
 
         });
         
